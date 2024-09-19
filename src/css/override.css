@@ -1,0 +1,65 @@
+.landing_search > * {
+  @apply bg-transparent border-none outline-none;
+}
+
+.landing_search .ant-select-selector {
+  @apply bg-primary-white min-w-[12rem] md:min-w-[22rem];
+  border: none !important;
+}
+
+/* Capital casing the headers of the table */
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  table
+  thead.ant-table-thead
+  .ant-table-cell {
+  @apply uppercase whitespace-nowrap text-center leading-3;
+}
+
+.ant-table
+  .ant-table-container
+  .ant-table-content
+  table
+  thead.ant-table-thead
+  .ant-table-cell-fix-left {
+  background: #e4edf5;
+}
+
+.hide-headers thead {
+  @apply hidden;
+}
+
+.ant-segmented-group {
+  @apply flex-wrap;
+}
+
+.ant-table-wrapper .ant-table.ant-table-bordered > .ant-table-container {
+  border-top: 1px solid rgba(var(--primary-dark), 0.2);
+}
+
+.bg-table-header {
+  background: #e4edf5;
+}
+
+.custom-calendar .ant-picker-calendar-header .ant-picker-calendar-mode-switch {
+  display: none;
+}
+
+.disabled_btn.disabled\:bg-paled-blue:disabled {
+  background-color: rgba(var(--unused-components)) !important;
+}
+
+.disabled_checkbox .ant-checkbox-disabled .ant-checkbox-inner {
+  background: rgba(var(--unused-components)) ;
+  border-color: #d9d9d9;
+}
+
+.wip_btn.ant-btn{
+  background: rgba(var(--unused-components));
+  color: gray;
+
+  &:hover{
+    background: rgba(var(--unused-components)) !important;
+  }
+}

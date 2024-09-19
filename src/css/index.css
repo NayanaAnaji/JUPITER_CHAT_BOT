@@ -1,0 +1,48 @@
+/* --- CSS FILE IMPORTS --- */
+@import url("variables.css");
+@import url("override.css");
+
+/* --- TAILWIND IMPORTS --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- EXTERNAL UTILITYS --- */
+@layer utilities {
+  .headline {
+    @apply text-base leading-6 text-primary-dark font-medium uppercase;
+  }
+
+  .sub-headline {
+    @apply text-md leading-5;
+  }
+
+  .form-headline {
+    @apply text-[1rem] font-medium text-secondary-dark;
+  }
+
+  .table-cell-text-blue {
+    @apply text-xs font-bold text-primary-blue text-center cursor-pointer;
+  }
+
+  .table-cell-text-red {
+    @apply text-xs font-bold text-red text-center cursor-pointer;
+  }
+
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+}
+
+.custom-modal .ant-modal-content {
+  /* Your custom styles */
+  padding: 0px;
+}
+
+.custom-modal-header .ant-modal-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: "bg-red"; */
+  @apply bg-red;
+}
