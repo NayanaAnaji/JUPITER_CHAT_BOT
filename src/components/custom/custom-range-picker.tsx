@@ -4,7 +4,7 @@ import { DatePicker, type TimeRangePickerProps } from "antd";
 
 import CustomError from "@/components/custom/custom-error";
 import CustomLabel from "@/components/custom/custom-label";
-import { DateFormats } from "@/helpers/date-fromatters";
+import { DateFormats } from "@/helper/date-formatter";
 import { tw } from "@/utils/lib";
 
 const { RangePicker } = DatePicker;

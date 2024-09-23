@@ -59,6 +59,7 @@ function CustomActionButtons({ children, className, ...props }:
 }
 
 CustomActionButtons.Run = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { runButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.run} arrow={false}>
@@ -72,6 +73,7 @@ CustomActionButtons.Run = (): ReactNode => {
 };
 
 CustomActionButtons.Upload = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { uploadButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.upload} arrow={false}>
@@ -82,6 +84,7 @@ CustomActionButtons.Upload = (): ReactNode => {
 };
 
 CustomActionButtons.Add = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { addButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.add} arrow={false}>
@@ -94,6 +97,7 @@ CustomActionButtons.Add = (): ReactNode => {
 };
 
 CustomActionButtons.Save = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { saveButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.save} arrow={false}>
@@ -105,6 +109,7 @@ CustomActionButtons.Save = (): ReactNode => {
 };
 
 CustomActionButtons.View = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { viewButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.view} arrow={false}>
@@ -116,6 +121,7 @@ CustomActionButtons.View = (): ReactNode => {
 };
 
 CustomActionButtons.Download = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { downloadButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.download} arrow={false}>
@@ -128,6 +134,7 @@ CustomActionButtons.Download = (): ReactNode => {
 };
 
 CustomActionButtons.Cancel = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { cancelButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.cancel} arrow={false}>
@@ -140,6 +147,7 @@ CustomActionButtons.Cancel = () => {
 };
 
 CustomActionButtons.Delete = (): ReactNode => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { deleteButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.delete} arrow={false}>
@@ -151,6 +159,7 @@ CustomActionButtons.Delete = (): ReactNode => {
 };
 
 CustomActionButtons.Edit = () => {
+  // eslint-disable-next-line react-hooks/rules-of-hooks
   const { editButtonProps } = useCustomActionButtonsContext();
 
   return <Tooltip title={buttons.edit} arrow={false}>

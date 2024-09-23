@@ -1,7 +1,9 @@
 @layer base {
   :root {
     --font-primary: "Inter", sans-serif;
-
+    --font-space: "Space Mono", monospace;
+    --font-size-base: 14px;
+    
     --primary-blue: 51, 122, 183;
     --secondary-blue: 30, 88, 133;
     --paled-blue: 120, 166, 206;
@@ -46,14 +48,6 @@
       rgb(81, 145, 205) 49.83%,
       rgb(25, 57, 138) 100%
     );
-    --gradient-hero: linear-gradient(
-      94deg,
-      #104879 4.7%,
-      #1d76c5 49.45%,
-      #0f79d7 69.86%,
-      rgba(0, 112, 209, 0.29) 98.48%
-    );
-
     --radius: 0.2rem;
   }
 }

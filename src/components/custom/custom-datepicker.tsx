@@ -4,8 +4,8 @@ import { DatePicker, type DatePickerProps } from "antd";
 
 import CustomError from "@/components/custom/custom-error";
 import CustomLabel from "@/components/custom/custom-label";
-import { DateFormats } from "@/helpers/date-fromatters";
 import { tw } from "@/utils/lib";
+import { DateFormats } from "@/helper/date-formatter";
 
 export interface ICustomDatePickerProps extends DatePickerProps {
   label?: string;

@@ -41,8 +41,8 @@ const LoginForm: FC = () => {
             [ServerKeys.PASSWORD]: "",
         },
         validationSchema: Yup.object({
-            [ServerKeys.USERNAME]: Yup.array().min(1, ValidationMsgs.usernameIsRequired),
-            [ServerKeys.PASSWORD]: Yup.array().min(1, ValidationMsgs.passwordIsRequired),
+            [ServerKeys.USERNAME]: Yup.string().required(ValidationMsgs.usernameIsRequired),
+            [ServerKeys.PASSWORD]: Yup.string().required(ValidationMsgs.passwordIsRequired),
         }),
         onSubmit: async (values) => {
             const formData = new FormData();

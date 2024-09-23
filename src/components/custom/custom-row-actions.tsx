@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { createContext, useContext, type ReactNode } from "react";
 import { type ButtonProps } from "antd";
 import { Copy, Pencil, Plus, Save, Trash2, XCircle } from "lucide-react";

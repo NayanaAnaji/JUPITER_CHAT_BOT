@@ -47,4 +47,11 @@ export enum ServerKeys {
     TABLE_FLAG = "tableFlag",
     ORIGIN = "origin",
     DESTINATION = "destination",
+    LABEL = "label",
+    VALUE = "value",
+    OPERATION = "operation",
+    COLL_NAME = "collName",
+    DB_NAME = "dbName",
+    MODULE_NAME = "moduleName",
+    CHECKED = "checked",
 }

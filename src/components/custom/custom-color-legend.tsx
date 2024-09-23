@@ -1,6 +1,6 @@
 import { type FC } from "react";
 
-import { type LegendObject } from "@/types/object.types";
+import { type LegendObject } from "@/types/object-types";
 
 type LegendProps = {
   legendArr: LegendObject[];

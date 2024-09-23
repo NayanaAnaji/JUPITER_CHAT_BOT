@@ -49,9 +49,8 @@ export default {
         "lightGoldenrodYellow": "rgb(var(--unused-components))",
       },
       backgroundImage: {
-        "gradient-header": "var(--gradient-header)",
-        "gradient-sider": "var(--gradient-sider)",
-        "gradient-hero": "var(--gradient-hero)",
+        "gr-header": "var(--gradient-header)",
+        "gr-sider": "var(--gradient-sider)",
         "login": "url(/src/assets/images/login-bg-pattern.svg)",
         "login-side": "url(/src/assets/images/login-side-img.svg)",
         "not-found": "url(/src/assets/images/notfound.svg)",
@@ -63,3 +62,4 @@ export default {
   },
   plugins: [],
 };
+

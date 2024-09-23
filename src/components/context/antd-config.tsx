@@ -104,11 +104,11 @@ import { StorageKeys } from "@/utils/storage-keys";
                 fontSize: 11,
                 // cellPaddingBlockSM: 4,
                 // cellPaddingInlineSM: 6,
-                headerBg: "rgba(var(--c-primary),0.1)",
-                headerSortHoverBg: "rgba(var(--c-primary),0.2)",
+                headerBg: "rgba(var(--c-primary-blue),0.1)",
+                headerSortHoverBg: "rgba(var(--c-primary-blue),0.2)",
                 borderColor: theme !== "dark"
-                  ? "rgba(var(--c-dark), 0.2)"
-                  : "rgba(var(--c-primary), 0.2)",
+                  ? "rgba(var(--c-primary-dark), 0.2)"
+                  : "rgba(var(--c-primary-blue), 0.2)",
               },
               Message: { borderRadius: 2 },
               Notification: {

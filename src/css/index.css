@@ -1,6 +1,5 @@
 /* --- CSS FILE IMPORTS --- */
 @import url("variables.css");
-@import url("override.css");
 
 /* --- TAILWIND IMPORTS --- */
 @tailwind base;
