@@ -5,7 +5,7 @@ interface IBodyProps {
     inputText: string[];
     onFocus: boolean
 }
-const Body: FC<IBodyProps> = (props) => {
+const ChatBody: FC<IBodyProps> = (props) => {
     const { inputText, onFocus } = props;
     return (
         <div className="p-2 flex flex-col h-full w-full">
@@ -29,4 +29,4 @@ const Body: FC<IBodyProps> = (props) => {
     )
 }
 
-export default Body
+export default ChatBody;

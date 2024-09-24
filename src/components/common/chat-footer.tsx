@@ -7,7 +7,7 @@ interface IFooterProps {
     setOnFocus: (text: boolean) => void;
 }
 
-const Footer: FC<IFooterProps> = (props) => {
+const ChatFooter: FC<IFooterProps> = (props) => {
     const { setInputText, setOnFocus } = props
     const [inputValue, setInputValue] = useState("");
     const [typingTimeout, setTypingTimeout] = useState<ReturnType<typeof setTimeout> | null>(null);
@@ -56,4 +56,4 @@ const Footer: FC<IFooterProps> = (props) => {
     )
 }
 
-export default Footer
+export default ChatFooter;
