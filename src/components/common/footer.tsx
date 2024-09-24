@@ -26,12 +26,22 @@ const Footer: FC<IFooterProps> = (props) => {
 
     }
 
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+        if (e.key === "Enter") {
+            e.preventDefault();
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            handleInput(e as any);
+            setInputText((prev) => [...prev, inputValue]);
+            setInputValue("");
+        }
+    };
     return (
         <div className="h-full flex items-center ml-2 justify-between gap-2">
             <textarea className="border-none flex justify-center focus:outline-none w-full"
                 placeholder="Type your question here"
                 onChange={handleInput}
                 value={inputValue}
+                onKeyDown={handleKeyDown}
             />
             <div className="flex gap-2 mr-3 text-gray-600">
                 <SendHorizontal onClick={() => {
