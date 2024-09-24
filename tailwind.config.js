@@ -54,6 +54,7 @@ export default {
         "login": "url(/src/assets/images/login-bg-pattern.svg)",
         "login-side": "url(/src/assets/images/login-side-img.svg)",
         "not-found": "url(/src/assets/images/notfound.svg)",
+        "gr-bot": "var(--gradient-chatbot)",
       },
       transitionProperty: {
         "max-height": "max-height",

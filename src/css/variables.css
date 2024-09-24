@@ -48,6 +48,11 @@
       rgb(81, 145, 205) 49.83%,
       rgb(25, 57, 138) 100%
     );
+    --gradient-chatbot: linear-gradient(
+    to bottom,
+    rgb(152, 166, 200) 0%,
+    rgb(239, 239, 243) 49.83%
+);
     --radius: 0.2rem;
   }
 }
