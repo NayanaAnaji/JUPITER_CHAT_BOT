@@ -14,7 +14,6 @@ const ChatScreen: FC<IChatScreen> = ({ setOpenMessageScreen }) => {
     const [onFocus, setOnFocus] = useState(false)
     const scrollRef = useRef<HTMLDivElement | null>(null);
     useEffect(() => {
-        console.log(scrollRef.current, "testdjsiodlfn")
         if (scrollRef.current) {
             scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
         }
@@ -25,7 +24,7 @@ const ChatScreen: FC<IChatScreen> = ({ setOpenMessageScreen }) => {
             <div className="h-18  rounded-t">
                 <ChatHeader setOpenMessageScreen={setOpenMessageScreen} />
             </div>
-            <div className="flex-1 overflow-auto custom-scrollbar" ref={scrollRef}>
+            <div className="flex-1 overflow-auto custom-scrollbar flex items-end" ref={scrollRef}>
                 <ChatBody inputText={inputText} onFocus={onFocus} />
             </div>
             <div className="h-16 border-t border-gray-300 bg-white  " >

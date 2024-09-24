@@ -13,7 +13,6 @@ const ChatFooter: FC<IFooterProps> = (props) => {
     const [typingTimeout, setTypingTimeout] = useState<ReturnType<typeof setTimeout> | null>(null);
     const handleInput = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
         setInputValue(e.target.value)
-        console.log(e.target.value, "tets")
         setOnFocus(true);
         if (typingTimeout) {
             clearTimeout(typingTimeout);
