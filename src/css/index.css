@@ -46,3 +46,10 @@
   @apply bg-red;
 }
 
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #a69fe4;
+}
