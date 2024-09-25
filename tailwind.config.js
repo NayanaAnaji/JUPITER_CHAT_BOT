@@ -45,6 +45,7 @@ export default {
         "light-blue": "rgb(var(--light-blue))",
         "orange": "rgb(var(--primary-orange))",
         "brown": "rgb(var(--primary-brown))",
+        "primary-gray":"rgb(var(--primary-gray))",
 
         "lightGoldenrodYellow": "rgb(var(--unused-components))",
       },
